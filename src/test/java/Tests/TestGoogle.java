@@ -23,10 +23,6 @@ public class TestGoogle extends BaseTest {
 		assertThat(landingPage.getErrorLoginErrorMsg()).isEqualTo("Incorrect email o password.");
 	}
 	
-	@Test
-	public void myTest() {
-		System.out.println("hello this is my test");
-	}
 	
 	@DataProvider
 	public Object[][] userCredentials() throws IOException{
